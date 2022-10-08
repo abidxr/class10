@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+    background-image: url(/images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #00640038;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.logo h2 {
+    text-align: left;
+}
+
+.logo h2 span {
+    display: block;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: left;
+}
+
+nav {
+    width: 80%;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: list-item;
+    color: red;
+
+}
+
+.banner {
+    padding: 140px 0;
+    text-align: center;
+}
+
+.banner h3 {
+    font-size: 40px;
+    padding: 50px 0px 8px 0px;
+    color: darkgreen;
+    font-style: italic;
+}
+
+.banner span {
+    height: 5px;
+    width: 188px;
+    background: red;
+    display: block;
+    margin: auto;
+}
+
+.banner h1 {
+    font-size: 50px;
+    padding: 40px 0 0 0;
+    color: darkgreen;
+}
+
+.banner button {
+    font-size: 20px;
+    background-color: darkgreen;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 3px solid red;
+    color: red;
+    letter-spacing: 2px;
+    margin: 35px 0 0 0;
+    font-weight: 600;
+    font-family: revert;
+}
+
+/* upcoming  */
+.upcoming-section {}
+
+.upcoming-section h3 {
+    font-size: 35px;
+    padding: 50px 0 8px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.upcoming-section span {
+    height: 5px;
+    width: 100px;
+    background: red;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.col {
+    width: 50%;
+    float: left;
+}
+
+.event {
+    padding: 20px;
+    text-align: center;
+}
+
+.event img {
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 10px 10px 1px #8080804d;
+    border-radius: 15px;
+}
+
+.event h4 {
+    padding: 30px 0 15px 0;
+    font-size: 25px;
+}
+
+.event p {
+    font-size: 17px;
+    color: rgb(43, 36, 36);
+}
+
+.event a {
+    font-size: 20px;
+    color: red;
+    letter-spacing: 2px;
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+section {
+    overflow: hidden;
+}
+
+/* world  */
+.explorer {
+    padding: 20px 0;
+    background-image: url(/images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #00640038;
+    background-attachment: fixed;
+}
+
+.world {
+    width: 50%;
+    float: right;
+    padding: 50px 0;
+}
+
+.world h1 {
+    font-size: 80px;
+    padding: 40px 0 0 0;
+    color: darkgreen;
+}
+
+.world span {
+    height: 5px;
+    width: 100px;
+    background: red;
+    display: block;
+    margin-bottom: 50px;
+    padding: 0 400px 0 100px;
+}
+
+
+.world p {
+    font-size: 20px;
+    color: white;
+}
+
+.world a {
+    font-size: 20px;
+    color: red;
+    letter-spacing: 2px;
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* tour  */
+.tour {
+    margin: 100px 0;
+}
+
+.collum {
+    width: 33.33%;
+    float: left;
+}
+
+.tour-box {
+    padding: 20px;
+}
+
+.tour-box h5 {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: left;
+    padding: 0 0 15px 0;
+}
+
+.tour-box span {
+    height: 5px;
+    width: 100px;
+    background: red;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.tour-box p {
+    font-size: 17px;
+    color: black;
+}
+
+.tour-box a {
+    font-size: 20px;
+    color: black;
+    letter-spacing: 2px;
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.small {
+    height: 350px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+.large {
+    height: 450px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+/* footer  */
+.footer {
+    padding: 100px 0;
+    background-color: darkgreen;
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+}
